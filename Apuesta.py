@@ -28,3 +28,4 @@ class Apuesta:
     def estaVacia(self):
         if self.fichas == 0:
             return True
+        
