@@ -1,5 +1,5 @@
 class Jugador:
-    def __init__(self, nombre="n", fichas=5):
+    def __init__(self, nombre="jugador-x", fichas=5):
         self.nombre = nombre
         self.fichas = fichas
     
