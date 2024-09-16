@@ -1,3 +1,4 @@
+import pytest
 from Apuesta import Apuesta
 
 def test_prueba():
@@ -37,3 +38,6 @@ def test_ponerFicha_sin_argumentos():
     a.fichas = 5
     a.ponerFicha()
     assert(a.fichas == 6)
+
+
+    
