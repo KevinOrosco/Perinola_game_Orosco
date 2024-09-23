@@ -1,5 +1,5 @@
 class Jugador:
-    def __init__(self, nombre="jugador-x", fichas=5):
+    def __init__(self, nombre, fichas=5):
         self.nombre = nombre
         self.fichas = fichas
     
@@ -17,7 +17,7 @@ class Jugador:
     
     def tieneFicha(self, cuantas = 1):
         if self.fichas == cuantas:
-            return True
+            return self.fichas
         
     def sinFichas(self):
         if self.fichas == 0:
